@@ -368,6 +368,8 @@ header li .logo
   background-color: #F3F4F7;
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 200px;
 
   
 }  
@@ -379,7 +381,8 @@ header li .logo
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  top: 200px;
+  top: 100px;
+  
 }
 .clientcards
 {
@@ -425,9 +428,55 @@ header li .logo
   font-weight: 300;
   font-size: 2em;
 }
-.sdasdas
+.offer
 {
+  display: flex;
+  width: 100%;
+  height: 130vh;
+  margin-top: 100px;
   
+}
+.main11
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+  
+}
+.offerimgdiv
+{
+  background-image: url(image/bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+}
+.offertextdiv
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #364fc7;
+  height: 130vh;
+  margin-top: 100px;
+}
+.offertextdiv h3
+{
+  color: #111;
+  z-index: 100;
+}
+.clear
+{
+  clear: both;
+}
+.offercard
+{
+  width: 100%;
+  height: 70vh;
+  background-color: #deb40d;
+  position: relative;
+  bottom: 0 !important;
 }
   
   /* ===========================================
